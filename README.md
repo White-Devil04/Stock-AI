@@ -59,37 +59,7 @@ The API is deployed and available at:
 You can access the API documentation at:
 [https://stock-ai-y76m.onrender.com/docs](https://stock-ai-y76m.onrender.com/docs)
 
-## API Endpoints
 
-### GET /api/stock/{symbol}
-
-Returns current stock information for the specified symbol.
-
-**Example:** 
-```
-https://stock-ai-y76m.onrender.com/api/stock/AAPL
-```
-
-### GET /api/prediction/{symbol}
-
-Returns AI-powered predictions for the specified stock symbol.
-
-**Example:**
-```
-https://stock-ai-y76m.onrender.com/api/prediction/AAPL
-```
-
-### GET /api/history/{symbol}/{timeframe}
-
-Returns historical data for the specified stock symbol and timeframe.
-
-**Parameters:**
-- `timeframe`: "1d", "1w", "1m", "3m", "6m", "1y", "5y"
-
-**Example:**
-```
-https://stock-ai-y76m.onrender.com/api/history/AAPL/1m
-```
 
 ## Testing with Unicorn
 
